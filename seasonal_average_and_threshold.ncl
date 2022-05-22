@@ -35,8 +35,6 @@ elseif (domain .eq. "1")
   pres = new((/dimsizes(fili),100,100/),float)
   pbl_height = new((/dimsizes(fili),100,100/),float)
   u_10 = new((/dimsizes(fili),100,100/),float)  
-else
-  print("you messed up bud")	
 end if
 
 
