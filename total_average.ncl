@@ -7,7 +7,6 @@ type = "urban"
 time = "current"
 domain = "2"
 year = "2005"
-;;; year and day are input manually here for now, but will be taken out when doing full analysis
 l = (/base, type, "/", time, "/wrf/output_files/", "/wrfout_d0", domain, "_", year,"-*"/)
 join = str_concat(l)
 
@@ -32,7 +31,6 @@ elseif (domain .eq. "1")
   pres = new((/dimsizes(fili),100,100/),float)
   pbl_height = new((/dimsizes(fili),100,100/),float)  
 else
-  print("you messed up bud")	
 end if
 
 
