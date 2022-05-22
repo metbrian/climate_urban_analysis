@@ -37,7 +37,7 @@ wks = gsn_open_wks("png","nu_urbfrac2")
   res@mpCenterLonF          = (res@mpMinLonF + res@mpMaxLonF) / 2.
 
   res@cnLevelSelectionMode = "ExplicitLevels"   ; set explicit contour levels
-  res@cnLevels            = (/0.1, 20, 50, 80, 100/)
+  res@cnLevels            = (/0, 20, 50, 80, 100/)
   ;res@cnLevelSelectionMode = "ManualLevels"        ; set manual contour levels
   ;res@cnMinLevelValF       =   0                  ; set min contour level
   ;res@cnMaxLevelValF       =   1                  ; set max contour level
@@ -87,7 +87,7 @@ wks = gsn_open_wks("png","urban_urbfrac2")
   res@mpMaxLonF             = max(lon1)
   res@mpCenterLonF          = (res@mpMinLonF + res@mpMaxLonF) / 2.
   res@cnLevelSelectionMode = "ExplicitLevels"   ; set explicit contour levels
-  res@cnLevels            = (/0.1, 20, 50, 80, 100/)
+  res@cnLevels            = (/0, 20, 50, 80, 100/)
 
  ; res@cnLevelSelectionMode = "ManualLevels"        ; set manual contour levels
  ; res@cnMinLevelValF       =   0                  ; set min contour level
