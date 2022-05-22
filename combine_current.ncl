@@ -1,7 +1,6 @@
 begin
 
 ;;;;;;File to take the average files for each year of simulations and average them together
-;;;;;;;Written only for domain two at the moment
 
 type = "nu"
 domain = "2"
