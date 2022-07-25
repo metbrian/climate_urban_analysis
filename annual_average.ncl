@@ -14,7 +14,6 @@ fili = systemfunc("ls " + join)
 nfili = dimsizes(fili)
 
 
-;;;;;;; Left off here with issues with the if statement
 
 if (domain .eq. "2")
   temp = new((/dimsizes(fili),110,130/),float)
